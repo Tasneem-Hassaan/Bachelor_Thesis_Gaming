@@ -18,10 +18,16 @@ The study applies advanced Natural Language Processing (NLP) techniques to bridg
 
 
 
-
 # Methodology & Tools
 The analytical pipeline is built using Python and consists of the following stages:
 - Data Collection: Automated extraction of Reddit data via the PRAW API.
 - Sentiment Analysis: Utilizing VADER to interpret social media-specific language and slang.
 - Topic Modeling: Implementing BERTopic (SBERT, UMAP, HDBSCAN) for semantic clustering of unstructured text.
 - Statistical Analysis: Logarithmic normalization of engagement metrics and OLS regression to model community response.
+
+# Repository File Guide
+
+- **Collect_Post_Reddit_Gaming.ipynb:** Data retrieval and initial labeling.
+- **Cleaning_Reddit_Gaming_Thesis1.ipynb:** Text preprocessing, noise removal, and metadata refinement.
+- **Final_Reddit_Gaming_(9).ipynb:** Main analysis, including sentiment distributions and BERTopic modeling.
+
