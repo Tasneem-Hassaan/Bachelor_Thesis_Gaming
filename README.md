@@ -29,5 +29,5 @@ The analytical pipeline is built using Python and consists of the following stag
 
 - **Collect_Post_Reddit_Gaming.ipynb:** Data retrieval and initial labeling.
 - **Cleaning_Reddit_Gaming_Thesis1.ipynb:** Text preprocessing, noise removal, and metadata refinement.
-- **Final_Reddit_Gaming_Thesis.ipynb:** Main analysis, including sentiment distributions and BERTopic modeling.
+- **Analysis_Reddit_Gaming_Thesis.ipynb:** Main analysis, including sentiment distributions and BERTopic modeling.
 
